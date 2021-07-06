@@ -19,6 +19,7 @@ section{
 }
 .half-width{
     width: 50%;
+    margin-right: 5%;
     padding-left:5%;
 }
 .half-width img{
@@ -58,6 +59,8 @@ section{
 }
 .item-food{
     text-align: center ;
+    margin-right: 10%;
+    margin-left: 10%;
 }
  .recipe-section{
      display: flex;
