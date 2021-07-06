@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.color-text{
+    color:orange;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left:5%;
+}
+.half-width img{
+    width: 100%;
+
+}
+.text-class{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 700;
+    font-display: ;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    color:cornsilk;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.width-shadow{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+}
+.width-shadow p{
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: justify;
+}
+#food-item{
+    text-align: center;
+    font: weight 700px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.item-food{
+    text-align: center ;
+}
+ .recipe-section{
+     display: flex;
+     margin-bottom: 100px;
+ }
+ .recipe-item{
+     margin-left: 5%;
+     margin-right: 5%;
+     width: 30%;
+    
+ }
+ .recipe-item img{
+     height: 350px;
+     width: 300px;
+ }
+.about-us{
+    background-image: url(images/1.png);
+    text-align: left;
+}
+.adress{
+    display: flex;
+}
+.contact-class{
+    text-align: center;
+    width: 40%;
+    margin-left: 40%; 
+
+}
+.email-sub{
+    display: flex;
+    margin-bottom:3px; 
+    padding: 200px;
+}
+.sub-email{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: tomato;
+    color: white;
+
+}
